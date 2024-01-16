@@ -39,7 +39,7 @@ const ContactUsComponent = () => {
             <p className={montserrat.className + " text-sm lg:text-md text-center py-4"}>Trusted experts delivering customized solutions, seamless productions, and captivating storytelling with unwavering commitment to excellence.</p>
             <div className='flex flex-col lg:flex-row justify-center items-center'>
                 <div className="w-full">
-                    <img className='lg:max-w-md mx-auto' src='/Assets/contact-us-form.png' />
+                    <img className='lg:max-w-md mx-auto' src='/assets/contact-us-form.png' />
                 </div>
                 <div className='w-full'>
                     <form className='max-w-md mx-auto' onSubmit={(e) => { HandleForm(e) }}>
