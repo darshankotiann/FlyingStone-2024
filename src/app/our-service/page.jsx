@@ -35,7 +35,7 @@ const OurService = () => {
                     <div className="flex flex-row flex-wrap gap-5 ">
                         {workLists.map((workList) => {
                             return (
-                                <div key={workList.id} class="w-full max-w-[18rem] bg-white border border-gray-200 rounded-lg shadow ">
+                                <div key={workList.id} class="w-full max-w-sm lg:max-w-[18rem] bg-white border border-gray-200 rounded-lg shadow ">
                                     <a href="#">
                                         <img className="p-2 rounded-t-lg w-full h-[50vh]" src={workList.mainImg} alt="product image" />
                                     </a>
