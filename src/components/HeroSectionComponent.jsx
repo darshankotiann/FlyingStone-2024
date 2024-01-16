@@ -8,7 +8,7 @@ const HeroSectionComponent = () => {
         <div className='relative w-full h-screen  flex flex-col justify-center items-center'>
             <div className="">
                 <Image
-                    src="/Assets/hero-section.png"
+                    src="/assets/hero-section.png"
                     layout='fill'
                     objectFit='cover'
                     objectPosition='center'

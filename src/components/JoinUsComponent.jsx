@@ -8,7 +8,7 @@ const JoinUs = () => {
         <div className='relative w-full h-screen  flex flex-col justify-center items-center'>
             <div className="">
                 <Image
-                    src="/Assets/contact-us-banner.png"
+                    src="/assets/contact-us-banner.png"
                     layout='fill'
                     objectFit='cover'
                     objectPosition='center'
