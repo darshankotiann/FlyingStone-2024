@@ -38,6 +38,7 @@ const ServiceComponent = () => {
         }])
     }, []);
     return (
+        //Comment
         <section class="bg-white">
             <div class="py-8 lg:py-16  mx-auto w-full lg:px-32 px-5">
                 <h2 className={montserrat.className + " text-2xl lg:text-4xl uppercase text-center  text-[#090F17] font-bold !italic"}>Our <span className='text-[#98C4FF]'>Services</span> </h2>
