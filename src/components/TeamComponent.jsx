@@ -41,7 +41,7 @@ const TeamComponent = () => {
                     {
                         profiles?.map((profile) => {
                             return (
-                                <div key={profile.key} className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100">
+                                <div key={profile.key} className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 bg-gray-900">
                                     <img src={profile.profileImg} alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
                                     <div className="space-y-4 text-center divide-y dark:divide-gray-700">
                                         <div className="my-2 space-y-1">
