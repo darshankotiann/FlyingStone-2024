@@ -66,10 +66,6 @@ const Footer = () => {
                                     <a href="https://github.com/themesberg/flowbite" class="hover:underline ">+918169210519
                                     </a>
                                 </li>
-                                <li class="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">info@flyingstonefilms.com
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <div>
