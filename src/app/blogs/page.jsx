@@ -39,7 +39,7 @@ const Blog = () => {
                             blogs?.map((blog) => {
                                 console.log(blog.id)
                                 return (
-                                    <BlogCardComponent id={blog.id} imgURL={blog.img} title={blog.title} description={blog.description} date={blog.date} />
+                                    <BlogCardComponent key={blog.id} id={blog.id} imgURL={blog.img} title={blog.title} description={blog.description} date={blog.date} />
                                 )
                             })
                         }

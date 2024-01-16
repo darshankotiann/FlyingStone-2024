@@ -45,7 +45,7 @@ const ServiceComponent = () => {
                 <div className="flex  flex-wrap gap-5 justify-center ">
                     {services.map((service) => {
                         return (
-                            <div class="max-w-sm p-6 bg-[#EAF0F8] border border-gray-200 rounded-lg shadow ">
+                            <div key={service.id} class="max-w-sm p-6 bg-[#EAF0F8] border border-gray-200 rounded-lg shadow ">
                                 <img src={service.img} class="w-[2rem] mb-2" />
                                 <a href="#">
                                     <h5 className={montserrat.className + " mb-2 text-2xl font-bold tracking-tight text-[#1D1934]"}>{service.name}</h5>

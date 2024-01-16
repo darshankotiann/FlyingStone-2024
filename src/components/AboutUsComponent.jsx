@@ -25,7 +25,7 @@ const AboutUsComponents = () => {
                     <div>
                         <h2 className={montserrat.className + " text-2xl text-white font-bold !italic"}>Our <span className='text-[#98C4FF] !italic'>Mission</span></h2>
                         <p className={montserrat.className + " text-sm text-white"}>
-                            At Flying Stone Films, our primary mission is to deliver unparalleled quality and creativity in every project we undertake. We strive to exceed our clients' expectations by meticulously crafting captivating narratives, evoking emotions, and creating visually striking cinematic experiences that leave a lasting impact. As we aim to attract clients from across the globe, our mission is to be recognized as the go-to production company for international projects set in India.
+                            At Flying Stone Films, our primary mission is to deliver unparalleled quality and creativity in every project we undertake. We strive to exceed our clients expectations by meticulously crafting captivating narratives, evoking emotions, and creating visually striking cinematic experiences that leave a lasting impact. As we aim to attract clients from across the globe, our mission is to be recognized as the go-to production company for international projects set in India.
                         </p>
                     </div>
                 </div>
