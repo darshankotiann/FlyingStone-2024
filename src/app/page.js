@@ -18,6 +18,11 @@ const montserrat = Montserrat({ subsets: ['latin'], weight: ["200", "300", "400"
 export default function Home() {
   const [services, setServices] = useState([]);
   const [profiles, setProfiles] = useState([])
+  const [aboutContent, setAboutContent] = useState({
+    aboutDiscription: "...loading",
+    missionContent: "...loading",
+    vissionContent: "...loading"
+  });
 
   useEffect(() => {
     setServices([{
@@ -50,38 +55,45 @@ export default function Home() {
       enchanting detail, from opulent decor to heartfelt vows`, img: "/assets/wedding.png"
     }])
 
-    setProfiles([{
-      key: "1",
-      profileImg: "https://source.unsplash.com/150x150/?portrait?3",
-      name: "Nikhil Murarka",
-      designation: "Producer",
-      description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
-    },
-    {
-      key: "2",
-      profileImg: "https://source.unsplash.com/150x150/?portrait?3",
-      name: "Nikhil Murarka",
-      designation: "Producer",
-      description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
-    },
-    {
-      key: "3",
-      profileImg: "https://source.unsplash.com/150x150/?portrait?3",
-      name: "Nikhil Murarka",
-      designation: "Producer",
-      description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
-    },
+    setProfiles([
+      {
+        key: "1",
+        profileImg: "/assets/team/anup.png",
+        name: "Anup Poddar",
+        designation: "Producer",
+        description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
+      },
+      {
+        key: "2",
+        profileImg: "/assets/team/dhruv.jpg",
+        name: "Dhruv Murarka",
+        designation: "Marketing Director",
+        description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
+      },
+      {
+        key: "3",
+        profileImg: "/assets/team/aishwarya.jpg",
+        name: "Aishwarya Meshraam",
+        designation: "Executive Producer",
+        description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
+      },
     ])
+
+    setAboutContent({
+      aboutDiscription: "Flying Stone Films is a leading film production services company in India, specializing in providing film production services to international filmmakers who want to shoot in India. With our extensive experience and network in the Indian film industry, we offer top-notch film production support and resources to bring your vision to life. From pre-production to post-production, our talented team ensures a seamless film production services process.",
+      missionContent: "To ignite imaginations, capture stories, and create timeless cinematic experiences that transcend borders, we offer top-notch film production services. We are committed to providing unparalleled film production services, seamless collaboration, and the utmost attention to detail. Our mission is to be the go-to film production services company in India for international filmmakers, delivering exceptional results that exceed expectations.",
+      vissionContent: "To revolutionize the global film industry, Flying Stone Films offers comprehensive film production services. Our vision is to be the go-to destination for immersive production experiences. We create a collaborative environment where filmmakers can bring captivating stories to life on the silver screen. Through state-of-the-art facilities, cutting-edge technology, and a talented team, we aim to elevate filmmaking."
+    })
 
   }, []);
   return (
     <>
       <Navbar />
       <HeroSectionComponent />
-      <AboutUsComponents />
-      <ServiceComponent />
-      <TeamComponent />
+      <AboutUsComponents aboutContent={aboutContent} />
+      <TeamComponent profiles={profiles} />
       <JoinUs />
+      <ServiceComponent />
       <ContactUsComponent />
       <Footer />
     </>

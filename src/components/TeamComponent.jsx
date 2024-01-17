@@ -1,35 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Montserrat } from "next/font/google";
+import { useParams } from "next/navigation"
+
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: ["200", "300", "400", "500", "600", "700", "800", "900"] })
 
-const TeamComponent = () => {
-    const [profiles, setProfiles] = useState([])
-
-    useEffect(() => {
-        setProfiles([{
-            key: "1",
-            profileImg: "https://source.unsplash.com/150x150/?portrait?3",
-            name: "Nikhil Murarka",
-            designation: "Producer",
-            description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
-        },
-        {
-            key: "2",
-            profileImg: "https://source.unsplash.com/150x150/?portrait?3",
-            name: "Nikhil Murarka",
-            designation: "Producer",
-            description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
-        },
-        {
-            key: "3",
-            profileImg: "https://source.unsplash.com/150x150/?portrait?3",
-            name: "Nikhil Murarka",
-            designation: "Producer",
-            description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
-        },
-        ])
-    }, [])
+const TeamComponent = ({ profiles }) => {
     return (
         <>
             <div className='bg-[#0A111B] p-10'>
@@ -73,13 +49,12 @@ const TeamComponent = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             )
                         })
                     }
                 </div>
                 <div className='w-full text-center pt-8'>
-                    <button type="button" class="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View More</button>
+                    <button type="button" onClick={()=>location.href="/team"} class="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View More</button>
                 </div>
             </div>
         </>
