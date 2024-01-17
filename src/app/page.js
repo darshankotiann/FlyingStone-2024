@@ -91,9 +91,9 @@ export default function Home() {
       <Navbar />
       <HeroSectionComponent />
       <AboutUsComponents aboutContent={aboutContent} />
+      <ServiceComponent />
       <TeamComponent profiles={profiles} />
       <JoinUs />
-      <ServiceComponent />
       <ContactUsComponent />
       <Footer />
     </>
