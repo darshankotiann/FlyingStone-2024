@@ -8,9 +8,9 @@ const Navbar = () => {
     return (
         <header>
             <nav class="bg-white fixed w-full z-20 top-0 left-0 border-b drop-shadow-sm">
-                <ul class="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+                <ul class="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-4">
                     <a class="logo" href="#">
-                        <Image src="/assets/logo.png" width={100} height={100} />
+                        <Image src="/assets/logo-fsp.png" width={100} height={100} />
                     </a>
                     <input type="checkbox" id="check" />
                     <span class="menu bg-white lg:bg-white flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out">

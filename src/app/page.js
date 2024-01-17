@@ -61,21 +61,27 @@ export default function Home() {
         profileImg: "/assets/team/anup.png",
         name: "Anup Poddar",
         designation: "Producer",
-        description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
+        imdb:"https://www.imdb.com/name/nm1233924/?ref_=ext_shr_lnk",
+        link:"https://www.linkedin.com/in/anup-kumar-poddar-86229516/",
+        description: "An experienced Producer known for bringing compelling stories to life on the big screen.        "
       },
       {
         key: "2",
         profileImg: "/assets/team/dhruv.jpg",
         name: "Dhruv Murarka",
         designation: "Marketing Director",
-        description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
+        imdb:"https://www.imdb.com/name/nm9364627/?ref_=ext_shr_lnk",
+        link:"https://www.linkedin.com/in/dhruv-m-85996a182/",
+        description: "A visionary Marketing Director adept at promoting and positioning films for maximum audience engagement."
       },
       {
         key: "3",
         profileImg: "/assets/team/aishwarya.jpg",
         name: "Aishwarya Meshraam",
         designation: "Executive Producer",
-        description: "Weaving together the threads of creativity to craft captivating and memorable works of art."
+        imdb:"",
+        link:"https://www.linkedin.com/in/aishwarya-meshraam-7a3943240/",
+        description: " A dynamic Executive Producer with a keen eye for innovative and impactful film projects.        "
       },
     ])
 
@@ -93,7 +99,7 @@ export default function Home() {
       <AboutUsComponents aboutContent={aboutContent} />
       <ServiceComponent />
       <TeamComponent profiles={profiles} />
-      <JoinUs />
+      {/* <JoinUs /> */}
       <ContactUsComponent />
       <Footer />
     </>

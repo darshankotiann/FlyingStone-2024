@@ -11,19 +11,25 @@ const Footer = () => {
                         </a>
                         <span class="text-sm text-white w-1/2 flex text-left mt-[5%]  ">At Flying Stone Films, we are a renowned film production company based in India with over 15 years of industry experience.
                         </span>
-
-
                         <span className="text-sm text-white w-1/2 flex text-left mt-[5%]  ">
+
                             <svg class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
 
+                            203, Vardhman CHS, Convent Avenue, Seven Bungalow, Andheri 400053
+                        </span>
+                        {/* <br /> */}
+                        <span className="text-sm text-white w-1/2 flex text-left mt-[5%]  ">
+                            <svg class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
                             503 Lincoln Ave
                             Apt 1
                             Glendale CA 91205
                         </span>
-
                         <br />
                         <span className="text-sm text-white w-1/2 flex text-left mt-[1%]  ">
                             <svg class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -63,7 +69,11 @@ const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-white uppercase ">Contact Us</h2>
                             <ul class="text-white fonm">
                                 <li class="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">+918169210519
+                                    <a href="#" class="hover:underline ">+918169210519
+                                    </a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline ">+919930463660
                                     </a>
                                 </li>
                             </ul>
@@ -72,10 +82,10 @@ const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-white uppercase ">Legal</h2>
                             <ul class="text-white ">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Privacy Policy</a>
+                                    <a href="/privacy-policy" class="hover:underline">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                    <a href="/terms-condition" class="hover:underline">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>
