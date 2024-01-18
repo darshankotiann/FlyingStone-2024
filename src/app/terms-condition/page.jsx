@@ -6,7 +6,7 @@ const TermsCondition = () => {
             <Navbar />
             <div className="mt-[114px] p-10">
                 <p className="text-sm">
-                    These Terms & Conditions outline the rules and regulations for the use of Flying Stone Films' website and services. By
+                    These Terms & Conditions outline the rules and regulations for the use of Flying Stone Films&apos; website and services. By
                     accessing and using our website, you agree to be bound by these Terms & Conditions. If you do not agree to these
                     terms, please refrain from using our website.
 
